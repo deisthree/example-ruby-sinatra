@@ -7,7 +7,7 @@ get '/healthz' do
 end
 
 get '/' do
-  whom = ENV["POWERED_BY"] || "Deis"
+  whom = ENV["POWERED_BY"] || "Hephy"
   revision = ENV['WORKFLOW_RELEASE'] || "unknown"
   container = `hostname`.strip || "unknown"
   "Powered by #{whom}\nRelease #{revision} on #{container}\n"

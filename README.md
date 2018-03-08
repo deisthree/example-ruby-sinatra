@@ -5,7 +5,7 @@ This guide will walk you through deploying a Ruby application on [Deis Workflow]
 ## Usage
 
 ```console
-$ git clone https://github.com/deisthree/example-ruby-sinatra.git
+$ git clone https://github.com/teamhephy/example-ruby-sinatra.git
 $ cd example-ruby-sinatra
 $ deis create
 Creating Application... done, created benign-quilting
@@ -57,8 +57,8 @@ Release v2 on benign-quilting-web-2270916958-efwx3
 
 ## Additional Resources
 
-* [GitHub Project](https://github.com/deisthree/workflow)
+* [GitHub Project](https://github.com/teamhephy/workflow)
 * [Documentation](https://deis.com/docs/workflow/)
 * [Blog](https://deis.com/blog/)
 
-[Deis Workflow]: https://github.com/deisthree/workflow#readme
+[Deis Workflow]: https://github.com/teamhephy/workflow#readme
